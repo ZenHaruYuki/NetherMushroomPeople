@@ -31,6 +31,36 @@
           "src/main/resources/assets/nethermushrooms/models/item/warped_spore_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "FungalInfection",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fungal_infection",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nethermushrooms/potion/FungalInfectionMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "WarpedSporePlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_spore_player_collides_with_this_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nethermushrooms/procedures/WarpedSporePlayerCollidesWithThisEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -39,6 +69,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "effect.nethermushrooms.fungal_infection": "Fungal Infection",
       "entity.nethermushrooms.warped_spore": "Warped Spore",
       "item.nethermushrooms.nether_mushroom_guy_spawn_egg": "Nether Mushroom Guy Spawn Egg",
       "entity.nethermushrooms.nether_mushroom_guy": "Nether Mushroom Guy",

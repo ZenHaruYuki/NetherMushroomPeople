@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.nethermushrooms.init.NethermushroomsModTabs;
+import net.mcreator.nethermushrooms.init.NethermushroomsModMobEffects;
 import net.mcreator.nethermushrooms.init.NethermushroomsModItems;
 import net.mcreator.nethermushrooms.init.NethermushroomsModEntities;
 
@@ -45,6 +46,8 @@ public class NethermushroomsMod {
 		NethermushroomsModEntities.REGISTRY.register(bus);
 
 		NethermushroomsModTabs.REGISTRY.register(bus);
+
+		NethermushroomsModMobEffects.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init
