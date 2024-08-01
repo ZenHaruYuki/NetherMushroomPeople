@@ -23,6 +23,7 @@ public class NethermushroomsModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(NethermushroomsModItems.NETHER_MUSHROOM_GUY_SPAWN_EGG.get());
+			tabData.accept(NethermushroomsModItems.WARPED_SPORE_SPAWN_EGG.get());
 		}
 	}
 }

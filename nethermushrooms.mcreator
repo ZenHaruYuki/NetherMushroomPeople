@@ -15,6 +15,22 @@
           "src/main/resources/data/nethermushrooms/forge/biome_modifier/nether_mushroom_guy_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "WarpedSpore",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warped_spore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/nethermushrooms/forge/biome_modifier/warped_spore_biome_modifier.json",
+          "src/main/java/net/mcreator/nethermushrooms/entity/model/WarpedSporeModel.java",
+          "src/main/java/net/mcreator/nethermushrooms/entity/WarpedSporeEntity.java",
+          "src/main/java/net/mcreator/nethermushrooms/client/renderer/WarpedSporeRenderer.java",
+          "src/main/resources/assets/nethermushrooms/models/item/warped_spore_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -23,8 +39,10 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "entity.nethermushrooms.warped_spore": "Warped Spore",
       "item.nethermushrooms.nether_mushroom_guy_spawn_egg": "Nether Mushroom Guy Spawn Egg",
-      "entity.nethermushrooms.nether_mushroom_guy": "Nether Mushroom Guy"
+      "entity.nethermushrooms.nether_mushroom_guy": "Nether Mushroom Guy",
+      "item.nethermushrooms.warped_spore_spawn_egg": "Warped Spore Spawn Egg"
     }
   },
   "foldersRoot": {

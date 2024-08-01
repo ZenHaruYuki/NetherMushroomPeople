@@ -1,4 +1,6 @@
 {
+  "entity.nethermushrooms.warped_spore": "Warped Spore",
   "item.nethermushrooms.nether_mushroom_guy_spawn_egg": "Nether Mushroom Guy Spawn Egg",
-  "entity.nethermushrooms.nether_mushroom_guy": "Nether Mushroom Guy"
+  "entity.nethermushrooms.nether_mushroom_guy": "Nether Mushroom Guy",
+  "item.nethermushrooms.warped_spore_spawn_egg": "Warped Spore Spawn Egg"
 }
