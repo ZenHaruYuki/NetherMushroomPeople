@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "NetherMushroomGuy",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_mushroom_guy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/nethermushrooms/client/renderer/NetherMushroomGuyRenderer.java",
+          "src/main/java/net/mcreator/nethermushrooms/entity/model/NetherMushroomGuyModel.java",
+          "src/main/resources/assets/nethermushrooms/models/item/nether_mushroom_guy_spawn_egg.json",
+          "src/main/java/net/mcreator/nethermushrooms/entity/NetherMushroomGuyEntity.java",
+          "src/main/resources/data/nethermushrooms/forge/biome_modifier/nether_mushroom_guy_biome_modifier.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.nethermushrooms.nether_mushroom_guy_spawn_egg": "Nether Mushroom Guy Spawn Egg",
+      "entity.nethermushrooms.nether_mushroom_guy": "Nether Mushroom Guy"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nethermushrooms",
+    "modName": "NetherMushrooms",
+    "version": "1.0.0",
+    "author": "Royal, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.nethermushrooms"
+  },
+  "mcreatorVersion": 202400229712
+}
